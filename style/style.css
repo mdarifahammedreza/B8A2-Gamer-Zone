@@ -68,16 +68,59 @@ ul {
     padding: 5px;
     border-radius: 5px;
   }
+  /* banner */
+  .main-banner{
+    display:flex;
+    align-items: center;
+    height:calc(1vh-10);
+    justify-content: space-between;
+    padding:0px 240px;
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    
+
+  }
+.banner-title{
+    color: #0B0223;
+  font-family: Work Sans;
+  font-size: calc(.0625rem*48);
+  font-weight: 600;
+  }
+.banner-des{
+    display: flex;
+    align-items: center;
+    font-size: calc(.0625rem*20);
+    margin-top: 17px;
+    
+
+  }
+  
+  .banner-goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    font-size: calc(.0625rem*95);
+    font-weight: 800;
+    font-family: Work Sans;
+  }
   /* small device */
   @media screen and (max-width:576px) {
     nav{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         box-shadow: none;
+        
     }
     li{
         display: grid;
     }
-    
+
+    .main-banner{
+      display:grid;
+      grid-row: 1;
+      padding: 0px 40px;
+
   }
+}
   
