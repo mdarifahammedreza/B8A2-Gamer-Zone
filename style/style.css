@@ -2,3 +2,82 @@
     margin:0px;
     padding: 0px;
 }
+/* front family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+/* universal use */
+.pad{
+    padding: 240px;
+}
+/* navigation bar */
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding:10px 140px;
+  }
+.logo-G{
+    color: #FF42A5;
+}
+.logo{
+    font-size: calc(.0625rem*45);
+    font-weight: 700;
+    font-family: Work Sans;
+    color: #0B0223;
+}
+.follow-contaniar{
+    padding: 1px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+nav>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  a:hover {
+    background-color: #FF42A5;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  /* small device */
+  @media screen and (max-width:576px) {
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        box-shadow: none;
+    }
+    li{
+        display: grid;
+    }
+    
+  }
+  
