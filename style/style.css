@@ -137,14 +137,77 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .banner2-des{
-  margin: 30px 0px;
-  width: 520px;
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width:520px;
   color: #534C64;
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
 
+}
+.banner2-purpose{
+  padding-top: 30px;
+color: #534C64;
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+}
+.banner2-qoute{
+  color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+}
+/* banner 3 */
+.banner3-margin{
+  margin: 0px 240px;
+}
+.banner3-main{
+  text-align: center;
+  margin-top: 120px;
+}
+.banner3-title{
+  color: #0B0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.banner2-title-fist-half{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+}
+.banner3-des{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #534C64;
+font-family: Work Sans;
+font-size: 18px;
+line-height: 30px; /* 166.667% */
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+  padding: 10px;
+  text-align: justify;
+}
+/* footer */
+footer{
+  background-color:#0B0223;
+}
+.logo{
+  color: #FFF;
+}
+.footer-logo {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   /* small device */
   @media screen and (max-width:576px) {
