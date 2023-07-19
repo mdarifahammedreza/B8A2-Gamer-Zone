@@ -104,6 +104,48 @@ ul {
     font-weight: 800;
     font-family: Work Sans;
   }
+.banner-button{
+  padding-top: 40px;
+}
+.primary-button{
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  padding: 21px 40px;
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#blue{
+  background: #4EC5F7;
+  position: relative;
+  left: 20px;
+}
+/* banner 2 */
+.banner2-p{
+  text-align: right;
+}
+.banner2-title{
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner2-des{
+  margin: 30px 0px;
+  width: 520px;
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+
+}
   /* small device */
   @media screen and (max-width:576px) {
     nav{
