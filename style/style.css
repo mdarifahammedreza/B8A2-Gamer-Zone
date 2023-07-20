@@ -196,20 +196,129 @@ line-height: 30px; /* 166.667% */
   padding: 10px;
   text-align: justify;
 }
+/* banner 4 */
+.banner4-main{
+  /* border: 1px solid brown; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0px 240; */
+  /* padding-top: 60px; */
+  width: auto;
+  height: 950px;
+}
+  
+}
+.banner3-part1{
+  width: 353px;
+}
+.banner4-img{
+  width: 634.833px;
+  height: 650px;
+
+}
+.banner4-part2-outer{
+  width: 634.833px;
+  height: 650px;
+}
+.banner4-part2-inner{
+  transform: scale(.8);
+  position: relative;
+  top: -200px;
+  left: -180px;
+  
+
+}
+/* banner 5 */
+.banner5-part2-inner{
+  transform: scale(.8);
+  position: relative;
+  top: -200px;
+  left: 420px;
+}
+.banner5-part1{
+  text-align: left;
+  width: 350px;
+  padding: 200px;
+}
+.pink-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1920px;
+  height: 821px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: #FFF;
+}
+.pink-part-1{
+  text-align: justify;
+  width: 680px;
+  padding: 240px;
+}
+.pink-header{
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.pink-des{
+padding: 20px 0px;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+}
+.pink-list{
+  display:flex;
+  
+}
+.pink-des-1{
+  text-align:left;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+}
+.pink-des-2{
+  text-align:right;
+}
+.pink-section-btn{
+  border: none;
+  margin-top:30px;
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #FFF;
+}
 /* footer */
 footer{
   background-color:#0B0223;
+    display: grid;
+    text-align: center;
+    color: #FFF;
+    padding: 130px 400px;
 }
-.logo{
-  color: #FFF;
-}
-.footer-logo {
- 
+.footer-logo  {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: calc(.0625rem*45);
+  font-weight: 700;
+  font-family: Work Sans;
+  
 }
-  /* small device */
+.footer-features{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 40px;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 60px 0px;
+}
+.footer-icon img{
+  width: 40px;
+  height: 40px;
+  padding-bottom: 40px;
+}
+
+ /* small device */
   @media screen and (max-width:576px) {
     nav{
         display: grid;
