@@ -195,6 +195,13 @@ line-height: 30px; /* 166.667% */
   gap: 24px;
   padding: 10px;
   text-align: justify;
+  
+}
+.card>:hover{
+  border:3px solid #0B0223;
+  border-radius: 20px;
+  background-color: #ddd8eb;
+  cursor: pointer;
 }
 /* banner 4 */
 .banner4-main{
@@ -317,35 +324,49 @@ footer{
     display: grid;
     text-align: center;
     color: #FFF;
-    padding: 130px 400px;
+    padding:  8.125rem 25rem;
 }
 .footer-logo  {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(.0625rem*45);
-  font-weight: 700;
+  font-size: 2.82rem;
+  font-weight: 700px;
   font-family: Work Sans;
   
+}
+.pink-list li:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 .footer-features{
   display: grid;
   grid-template-columns: repeat(1,1fr);
-  gap: 40px;
+  gap: 2.5rem;
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 600;
-  padding: 60px 0px;
+  padding: 3.75rem 0rem;
+}
+footer li:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 .footer-icon img{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   padding-bottom: 40px;
+}
+.footer-icon img:hover{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
 button:hover{
   cursor: pointer;
   border:.2px solid blueviolet;
 }
+
 
  /* small device */
   @media screen and (max-width:576px) {
@@ -365,5 +386,67 @@ button:hover{
       padding: 0px 40px;
 
   }
+  .banner-goat{
+    font-size: calc(.0625rem*50); 
+  }
+  .banner-title{
+  font-size: calc(.0625rem*30);
+  }
+  
+  .primary-button{
+    font-size: 13px;
+  }
+
+.img-res{
+  height: 100%;
+  width: 100%;
 }
+.banner5-part1{
+  margin: 20px;
+  padding: 10ps;
+}
+.banner3-margin{
+  margin: 1.25rem;
+}
+.banner4-main{
+  display: inline;
+}
+.card{
+  display: inline;
+}
+.pink-section{
+  padding:0;
+  width: 1132px;
+height: 1905px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.pink-part-1{
+  text-align: justify;
+  padding: 0px;
+}
+.little-cart{
+  width: 120px;
+  height: 40px;
+}
+.little-cart>img{
+  height: 45px;
+}
+.little-cart-main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 0px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content:center;
+  padding: 10px 34px;
+}
+footer{
+  padding: 5px;
+}
+.footer-icon li{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+}
+
   
